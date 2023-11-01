@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    font-family: "Kanit", sans-serif;
+}
+
+html {
+    font-size: 65%;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: lightblue;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.background {
+    background-color: burlywood;
+    width: 100%;
+    height: 150%;
+    border-radius: 50% 0 0 100%;
+    transform: translate(20%, -32%);
+}
+
+.main-form {
+    width: 70%;
+    height: 80%;
+    background-color: lightslategrey;
+    position: absolute;
+    top: 12%;
+    left: 15%;
+    border-radius: 2rem;
+    overflow: hidden;
+}
+
+.main-form img {
+    width: 100rem;
+    height: 150rem;
+    position: absolute;
+    left: -40%;
+    top: -42%;
+    opacity: 0.5;
+    object-fit: scale-down;
+}
+
+.h1 {
+    position: absolute;
+    left: 30%;
+    top: 10%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    color: aliceblue;
+
+}
+
+.toggle-links {
+    text-align: right;
+    padding-right: 2cm;
+    padding-top: 2.5cm;
+    margin-left: 4cm;
+    margin-bottom: 1cm;
+    color: coral;
+    font-size: 1.7rem;
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.a {
+    color: coral;
+}
+
+.change .signin {
+    color: aqua;
+}
+
+.change .signup {
+    color: aqua;
+}
+
+.input {
+    width: 25%;
+    height: 1.5cm;
+    margin: .2cm;
+    margin-left: 21cm;
+    padding: .1cm;
+    border-radius: 1rem;
+    border-color: bisque;
+    background-color: blanchedalmond;
+
+}
+
+.change .hide {
+    display: none;
+}
+
+.change .display {
+    transform: translateY(-6rem);
+}
+
+
+.checkBox {
+    position: relative;
+    display: inline;
+    margin-top: .5cm;
+    margin-bottom: 0cm;
+    margin-left: 21cm;
+    width: .5cm;
+    height: .5cm;
+    border-radius: 1rem;
+    border-color: bisque;
+    background-color: brown;
+}
+
+.span {
+    position: relative;
+    font-size: small;
+    color: coral;
+}
+
+.change .span {
+    color: aqua;
+}
+
+.submit {
+    width: 25%;
+    height: 1.5cm;
+    margin: .2cm;
+    margin-left: 21cm;
+    padding: .1cm;
+    border-radius: 1rem;
+    border-color: bisque;
+    background-color: blanchedalmond;
+}
+
+.submit ::after {
+    transform: translateY(5rem);
+}
+
+.social-media {
+    width: 100%;
+    padding: 3rem 40% 0 0;
+    display: flex;
+    justify-content: flex-end;
+    border-top: 0.1rem solid rgba(255, 255, 255, 0.2);
+    margin-right: 0;
+
+}
+
+.social-media i {
+    margin-right: 1cm;
+    width: 3rem;
+    height: 3rem;
+    background-color: #939695;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    color: #3a3a3c;
+    cursor: pointer;
+}

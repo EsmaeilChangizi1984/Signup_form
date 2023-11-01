@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+</head>
+
+<body>
+
+    <form action="/" method="POST" class="container">
+        <div class="background"></div>
+        <div class="main-form">
+            <img src="images/plant.png" />
+            <h1 class="h1">PLEASE FILL UP THE FORM TO GET OUR SERVICE</h1>
+            <div class="toggle-links">
+                <a href="#" class="a change signup">Sign Up</a>
+                <span class="span">/</span>
+                <a href="#" class="a change signin">Sign In</a>
+            </div>
+            <form>
+                <input class="input hide" type="text" name="fname" placeholder="FirstName" required autofocus /><br>
+                <input class="input hide" type="text" name="lname" placeholder="LastName"><br>
+                <input class="input display" type="email" name="email" placeholder="Email.com"><br>
+                <input class="input display" type="password" name="Password" placeholder="password"><br>
+                <input class="checkBox" type="checkbox" id="check"><span class="span">I agree terms and conditions
+                </span><br>
+
+                <button class="submit" type="submit">SIGN UP</button>
+
+                <footer class="social-media">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </footer>
+            </form>
+        </div>
+    </form>
+    <script src="script.js"></script>
+    <script src="index.js"></script>
+
+</body>
+
+</html>
